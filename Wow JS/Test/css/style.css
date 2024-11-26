@@ -1,10 +1,14 @@
 .container{
     display: flex;
-    width: 100%;   
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1000px;
+    justify-content: center;
 }
 
 .box{
     width: 200px;
     height: 200px;
+    margin: 10px;
     background-color: black;
 }
